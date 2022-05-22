@@ -5,7 +5,9 @@ const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
   mode: process.env.NODE_ENV,
-  plugins: [new MiniCssExtractPlugin()],
+  plugins: [
+    new MiniCssExtractPlugin({ filename: "[name].[contenthash:7].css" }),
+  ],
   module: {
     rules: [
       {
