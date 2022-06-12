@@ -1,0 +1,1 @@
+console.log('我是vant配置文件')

@@ -1,0 +1,25 @@
+{
+  "name": "demo06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "chalk": "^4.1.2",
+    "commander": "^9.3.0"
+  },
+  "devDependencies": {
+    "vite": "^2.9.10",
+    "vite-plugin-html": "^3.2.0",
+    "vue": "^3.2.37"
+  }
+}
